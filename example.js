@@ -8,11 +8,6 @@
 
 "use strict";
 
+var	Actimony = require('./Lib/Actimony');
 
-//===========================
-// exports
-//===========================
-
-exports = module.exports = {
-	Actimony	: require('./lib/Actimony.js')
-};
+var actimony = new Actimony();
