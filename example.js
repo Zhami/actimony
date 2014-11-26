@@ -11,3 +11,8 @@
 var	Actimony = require('./Lib/Actimony');
 
 var actimony = new Actimony();
+
+var node = actimony.getNode();
+
+console.log('Node:nodeID:', node.getNodeID());
+
