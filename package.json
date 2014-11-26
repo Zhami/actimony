@@ -1,0 +1,40 @@
+{
+  "name": "actimony",
+  "version": "0.1.0",
+  "title": "Actimony",
+  "description": "A distrubuted system for inter-Actor interactions.",
+  "keywords": [
+    "distributed",
+    "actor"
+  ],
+  "main": "./index.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "homepage": "https://github.com/zhami/actimony",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zhami/actimony.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhami/actimony/issues"
+  },
+  "licenses": "MIT",
+  "author": {
+    "name": "Stuart Malin",
+    "url": "https://github.com/zhami",
+    "email": "stuart@EnvisixLabs.com"
+  },
+   "scripts": {},
+    "maintainers": [
+    {
+      "name": "Stuart Malin",
+      "email": "stuart@EnvisixLabs.com"
+    }
+  ],
+  "directories": {},
+  "dependencies": {
+    "axon": "~2.0.1"
+  }
+
+}
