@@ -14,12 +14,7 @@ var TransportWS	= require('./lib/TransportWS.js');
 
 var actimony	= new Actimony();
 
-var node1		= new Node();
-console.log('node1: nodeID:', node1.getNodeID());
-node1.addServer(TransportWS, {port: 8080});
-
-
-var node2		= new Node();
-console.log('node2: nodeID:', node2.getNodeID());
-node2.connectWith(TransportWS, 'ws://localhost:8080');
+var node		= new Node();
+console.log('node2: nodeID:', node.getNodeID());
+node.connectWith(TransportWS, 'ws://localhost:8080');
 
